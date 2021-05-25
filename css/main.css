@@ -1,0 +1,209 @@
+@charset "utf-8";
+html, body {
+    height: 100%;
+    overflow-y: hidden
+}
+
+body {
+    position: relative;
+    min-width: 1200px;
+    font-family: "Dotum", "Arial", sans-serif;
+    font-size: 12px;
+    color: #333;
+    background: white
+}
+
+.posNum {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 50px;
+    margin: -25px 0 0 -150px;
+    background: #111;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    z-index: 9999
+}
+
+.scrollBox {
+    min-width: 1200px;
+    height: 100%;
+    position: relative
+}
+
+.scrollBox .wrap {
+    min-width: 1200px;
+    position: relative;
+    overflow: hidden
+}
+
+.scrollBox .wrap > div {
+    position: relative
+}
+
+.scrollBox .wrap .objs > li {
+    position: absolute;
+    left: 50%
+}
+
+#header {
+    border-bottom: 1px solid #eeeeee;
+}
+
+#header .innerHeader{
+    width: 1189px;
+    height: 140px;
+    margin: 0 auto;
+    /*background: gray;*/
+}
+
+#header .innerHeader .topMenu .logo {
+    text-align: center;
+    padding-top: 12px;
+    margin: 0 270px 9px 366px;
+}
+
+#header .innerHeader .topMenu > li {
+    float: left;
+    padding-top: 33px;
+}
+
+#header .innerHeader .topMenu .line {
+    margin: 2px 23px;
+}
+
+#header .innerHeader .line {
+    margin-left: -366px;
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+#header .innerHeader .gnb {
+    width: 618px;
+    padding-left: 279px;
+    /*background: white;*/
+}
+
+#header .innerHeader .gnb > li {
+    float: left;
+    margin-right: 96px;
+}
+#header .innerHeader .gnb > li:nth-child(5) {
+    margin-right: 0;
+}
+
+
+#scene01 {
+    height: 840px;
+    background: url("../images/main/pink.png");
+    position: relative;
+}
+#scene01.active {
+    background: url("../images/main/dot.png");
+    transition: 1s;
+}
+
+#scene01 .visual {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    /*background: gray;*/
+}
+#scene01 .visual .main_visual {
+    /*margin-left: 342px;*/
+    padding-top: 61px;
+}
+#scene01 .visual .prev {
+    position: absolute;
+    top: 184px;
+    left: 0;
+}
+#scene01 .visual .next {
+    position: absolute;
+    top: 184px;
+    right: 0;
+}
+
+#scene01 .visual .main_visual .slick-slide {
+    margin-right: 500px !important; /*slide간의 여백 설정 */
+    transition: all 0.5s;
+    outline: none;
+}
+
+/*scene01 end*/
+
+#scene02 {
+    height: 1317px;
+    padding-top: 158px;
+    /*background: orangered;*/
+}
+#scene02 .visual {
+    width: 1400px;
+    height: 1317px;
+    margin: 0 auto;
+    /*background: gray;*/
+}
+#scene02 .visual .typo {
+    float: left;
+}
+
+#scene02 .visual .img_1 {
+    float: right;
+    margin-top: 57px;
+}
+#scene02 .visual .img_2 {
+    float: left;
+    margin-top: 312px;
+}
+#scene02 .visual .typo2 {
+    float: right;
+    margin-right: 82px;
+    margin-top: 109px;
+}
+
+#scene03 {
+    height: 731px;
+    /*background: yellow;*/
+    margin-top: 181px;
+    background: url("../images/main/scene02.png")no-repeat;
+}
+
+#scene04 {
+    height: 985px;
+    /*background: green;*/
+}
+
+#scene04 .visual {
+    width: 1133px;
+    height: 516px;
+    padding-top: 291px;
+    margin: 0 auto;
+    /*background: gray;*/
+}
+#scene04 .visual .typo {
+    float: right;
+    margin-top: 8px;
+}
+
+#scene04 .visual .main_visual {
+    width: 960px;
+    height: 516px;
+    float: left;
+    background: gray;
+}
+
+#scene05 {
+    height: 1014px;
+    background: dodgerblue;
+}
+
+
+#footer {
+    height: 398px;
+    background: #0f0f0f;
+    position: relative
+}
