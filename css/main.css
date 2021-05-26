@@ -120,7 +120,6 @@ body {
 }
 
 #header .innerHeader .gnb > li {
-    float: left;
     margin-right: 96px;
 }
 #header .innerHeader .gnb > li:nth-child(5) {

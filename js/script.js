@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function () {
 
     $(".scrollBox").niceScroll({
         cursorcolor: "#000",
