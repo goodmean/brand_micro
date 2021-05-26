@@ -129,11 +129,9 @@ body {
 
 #scene01 {
     height: 840px;
-    background: url("../images/main/pink.png");
     position: relative;
 }
 #scene01.active {
-    background: url("../images/main/dot.png");
     transition: 1s;
 }
 
