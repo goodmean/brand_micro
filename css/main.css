@@ -64,17 +64,17 @@ body {
 .scrollBox {
     min-width: 1200px;
     height: 100%;
-    position: relative
+    position: relative;
 }
 
 .scrollBox .wrap {
     min-width: 1200px;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .scrollBox .wrap > div {
-    position: relative
+    position: relative;
 }
 
 .scrollBox .wrap .objs > li {
